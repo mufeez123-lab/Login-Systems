@@ -1,4 +1,26 @@
 .App {
-  text-align: center;
+  text-align:center;
+  /* background-color: aqua; */
+  width: 50%;
+  margin:auto;
+  margin-top: 12vh;
 }
 
+.container-fluid{
+  background-color: #e4d8d8;
+  
+  
+}
+
+.my-cont{
+  background-color: bisque;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.card{
+  background-color: bisque;
+  border: none;
+  
+}
+  

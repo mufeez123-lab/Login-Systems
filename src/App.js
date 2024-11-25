@@ -5,6 +5,7 @@ import{BrowserRouter,Routes,Route} from "react-router-dom";
 import Create from "./components/Create"
 import Read from "./components/Read"
 import Update from "./components/Update"
+import Login from "./components/Login"
 
 
 
@@ -16,7 +17,9 @@ function App() {
       <Routes>
       <Route  exact path="/" element={<Create/>}/>
       <Route  exact path="/all" element={<Read/>}/>
-      <Route  exact path="/update" element={<Update/>}/  >
+      <Route  exact path="/update" element={<Update/>}/>
+      <Route exact path="/login" element={<Login/>} />
+
 
   
       </Routes>

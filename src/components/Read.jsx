@@ -46,6 +46,7 @@ const Read = () => {
        <p className="card-number">{ele.age}</p>
        <a href="#" className="card-link">Delete</a>
        <a href="#" className="card-link">Edit</a>
+       
      </div>
    </div>
    
